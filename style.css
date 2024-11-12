@@ -309,10 +309,24 @@ section{
 
 
 
+.end-text{
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    /* letter-spacing: 1px; */
+    color: var(--other-color);
+    }
+
 
 /* media queries */
 
 @media (max-width: 1061px){
+
+
+    /* about-section */
+    .about{
+        height: 160vh;
+    }
 /* services-section */
     .soft-skill-section {
         padding: 10px;
@@ -385,9 +399,9 @@ section{
 
 
     /* about-section */
-    
+  
 .about{
-    height: 100vh;
+    height: 140vh;
     width: 100%;
     background-image: url(portfolio\ bg1.jfif);
     background-color: #e3ffe6;
@@ -399,7 +413,7 @@ section{
     }
  .about-container{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
 
 .abt-btn{
@@ -522,7 +536,7 @@ section{
 /* about-section */
 
     .about{
-        height: 110vh;
+        height: 150vh;
     }
  .about-container{
         display: grid;
