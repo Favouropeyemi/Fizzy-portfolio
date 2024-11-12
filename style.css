@@ -426,6 +426,11 @@ section{
 
 
 
+
+    
+
+
+
     /* about-section */
   
 .about{
@@ -481,7 +486,7 @@ section{
     .soft-skill-section {
         padding: 10px;
         border-radius: 10px;
-        width: 290px; 
+        width: 300px; 
         font-size: 15px;
         font-weight: bold;
         margin-bottom: 10px;
@@ -490,6 +495,16 @@ section{
 
 
     /* portfolio-section */
+
+   .portfolio-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color: #aa7ff3;
+        width: auto;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        height: 200vh;
+     }
     
 .portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4, .portfolio-5, .portfolio-6{
     background-position: center;
@@ -542,7 +557,7 @@ section{
         .soft-skill-section {
             padding: 10px;
             border-radius: 10px;
-            width: 260px; 
+            width: 270px; 
             font-size: 15px;
             font-weight: bold;
             margin-bottom: 10px;
@@ -590,6 +605,22 @@ section{
     text-align: center; 
 }
 
+}
+
+@media (max-width: 650px){
+
+    /* service-section */
+ 
+        
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: #aa7ff3;
+    height: 90vh;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+}
 }
 
 
@@ -642,6 +673,16 @@ section{
         color: white;
     }
 
+
+    .soft-skill-section {
+        padding: 10px;
+        border-radius: 10px;
+        width: 275px; 
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: left;
+    }
 
       /* portfolio-section */
 
@@ -715,8 +756,8 @@ section{
 
     padding: 10px;
     border-radius: 10px;
-    width: 260px; 
-    font-size: 13px;
+    width: 265px; 
+    font-size: 12px;
     font-weight: bold;
     margin-bottom: 10px;
     text-align: left;
