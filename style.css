@@ -6,7 +6,14 @@
     text-decoration: none;
     list-style: none;
 }
-
+  body{
+    height: auto;
+    width: 100%;
+    background-image: url(portfolio\ bg1.jfif);
+    /* background-color: #e3ffe6; */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
 
 header{
@@ -81,11 +88,7 @@ section{
 }
 
 .about{
-    height: 100vh;
-    width: 100%;
-    background-image: url(portfolio\ bg1.jfif);
-    background-color: #e3ffe6;
-    background-size: cover;
+   
     position: relative;
     align-items: center;
     margin-top: 1rem;
@@ -314,7 +317,12 @@ section{
     padding: 20px;
     font-size: 14px;
     /* letter-spacing: 1px; */
-    color: var(--other-color);
+    color: white;
+    }
+
+    .end-text strong{
+        font-style: italic;
+        color: #aa7ff3;
     }
 
 
@@ -325,7 +333,7 @@ section{
 
     /* about-section */
     .about{
-        height: 160vh;
+        /* height: 160vh; */
     }
 /* services-section */
     .soft-skill-section {
@@ -337,6 +345,26 @@ section{
         margin-bottom: 10px;
         text-align: left;
     }
+    
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #aa7ff3;
+    height: 80vh;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+}
+
+/* portfolio-section */
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #aa7ff3;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 170vh;
+ }
 }
 @media (max-width: 991px){
 
@@ -401,11 +429,7 @@ section{
     /* about-section */
   
 .about{
-    height: 140vh;
-    width: 100%;
-    background-image: url(portfolio\ bg1.jfif);
-    background-color: #e3ffe6;
-    background-size: cover;
+
     position: relative;
     align-items: center;
     margin-top: 1rem;
@@ -449,55 +473,8 @@ section{
 .about-image-wrapper{
     width: 70%;
     height: 60%;
+    margin-top: 1rem;
 }
-/* 
-.about-text strong{
-    color: #aa7ff3 ;
-}
-
-.abt-1{
-    margin-bottom: 10px;
-}
-
-.abt-phone{
-    display: flex;
-    padding-top: 1rem;
-}
-
-.abt-phone .bx{
-    border: solid 1px;
-    border-radius: 50%;
-    border-color:#aa7ff3 ;
-    background-color: #aa7ff3;
-}
-
-.abt-phone p{
-    margin-left: 5px;
-}
-
-.about-image{
-    position: relative;
-    border-radius: 30px;
-    width: 400px;
-    height: 500px;
-    overflow: hidden;
-}
-
-.about-image-wrapper{
-    position: absolute;
-    right: 20px;
-    width: 200px;
-    height: 250px;
-    border-radius: 30px;
-    background: linear-gradient(135deg, #6e4bc9, #aa7ff3);
-    padding: 5px;
-}
-
-.profile-image{
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    object-fit: cover; */
 
 
     /* services-section */
@@ -536,7 +513,7 @@ section{
 /* about-section */
 
     .about{
-        height: 150vh;
+        /* height: 150vh; */
     }
  .about-container{
         display: grid;
@@ -555,7 +532,7 @@ section{
         
 .services-container{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
     background-color: #aa7ff3;
     height: 90vh;
     border-top-right-radius: 50px;
@@ -565,7 +542,7 @@ section{
         .soft-skill-section {
             padding: 10px;
             border-radius: 10px;
-            width: 290px; 
+            width: 260px; 
             font-size: 15px;
             font-weight: bold;
             margin-bottom: 10px;
@@ -577,8 +554,9 @@ section{
         
 .portfolio-container{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
     background-color: #aa7ff3;
+    width: auto;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     height: 200vh;
@@ -588,8 +566,8 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 280px;
-    height: 180px;
+    width: 210px;
+    height: 150px;
     margin-left: 10px;
     margin-top: 10px;
     border-top-right-radius: 50px;
@@ -602,7 +580,7 @@ section{
 .portfolio-container a p{
     text-decoration: none; /* Remove underline from link */
     color: white; /* Set text color */
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     display: flex;
     justify-content: center; /* Center text horizontally */
@@ -638,7 +616,7 @@ section{
     }
 
     .about-image-wrapper {
-        width: 70%; 
+        width: 80%; 
         height: auto; 
         border-radius: 20px;
         background: linear-gradient(135deg, #6e4bc9, #aa7ff3);
@@ -653,7 +631,16 @@ section{
         object-fit: cover; 
     }
     /* services-section */
-
+        
+    .services-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        background-color: #aa7ff3;
+        height: 100vh;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        color: white;
+    }
 
 
       /* portfolio-section */
@@ -665,15 +652,15 @@ section{
     background-color: #aa7ff3;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    height: 210vh;
+    height: 220vh;
  }
           
 .portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4, .portfolio-5, .portfolio-6{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 280px;
-    height: 180px;
+    width: 240px;
+    height: 170px;
     margin-left: 10px;
     margin-top: 10px;
     border-top-right-radius: 50px;
@@ -702,10 +689,10 @@ section{
 
  /* about-section */
     .about{
-        height: 110vh;
+        /* height: 110vh; */
     }
     .about-image-wrapper {
-        width: 75%; 
+        width: 90%; 
         height: auto; 
         border-radius: 20px;
         background: linear-gradient(135deg, #6e4bc9, #aa7ff3);
