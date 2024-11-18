@@ -87,6 +87,35 @@ section{
     padding: 100px 11% 5px;
 }
 
+.cert-btn a button{
+    
+  
+    background-color: #6e4bc9;
+    border: none;
+    color: white;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #aa7ff3;
+    margin-top: 1rem;
+  }
+
+  .cert-btn a button:hover{
+    background-color: white;
+    color:#6e4bc9 ;
+    opacity: 0.9;
+    transform: translateY(-5px);
+    /* border-color: ; */
+  }
+
+  .cert-btn a button:active{
+    opacity: 0.9;
+    transform: translateY(-5px);
+  }
+
 .about{
    
     position: relative;

@@ -42,6 +42,7 @@ sr.reveal('.portfolio-5', { delay: 600, origin: 'left' });
 sr.reveal('.portfolio-6', { delay: 700, origin: 'left' });
 // 
 sr.reveal('.abt-2, .abt-phone', { delay: 500, origin: 'left' });
+sr.reveal('.cert-btn', { delay: 500, origin: 'left' });
 sr.reveal('.about-image img', { delay: 600, origin: 'left' });
 // 
 sr.reveal('.services', { delay: 500, origin: 'left' });
